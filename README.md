@@ -27,7 +27,7 @@ So, for Monterey to not kernel panic during boot, you need to update a bunch of 
 - Lilu (https://github.com/acidanthera/Lilu/releases)
 - WhateverGreen (https://github.com/acidanthera/WhateverGreen/releases)
 - AppleALC (https://github.com/acidanthera/AppleALC/releases)
-- AirportItwlm (you need to put the Monterey version of this kext in, https://github.com/OpenIntelWireless/itlwm/releases)
+- AirportItwlm (you need to put the Monterey version of this kext in, https://github.com/OpenIntelWireless/itlwm/releases)<br />
 However it is recommended to just update them all while you're at it.
 After this, you're met with a decision, or macOS will hang at boot:
 - Fix Bluetooth (https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html)
