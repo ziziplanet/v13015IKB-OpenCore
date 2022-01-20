@@ -11,6 +11,7 @@ NVRAM reset seems to be fine on this particular model of laptop, however your mi
 OpenCore version is 0.7.7, maybe i will roll out some updated stuff here and there, otherwise you can update it yourself following: https://dortania.github.io/OpenCore-Post-Install/universal/update.html\<br />
 This config has been tested with macOS 11 Big Sur 11.6.2 (20G314) and the operating system works fine.<br />
 **UPDATE:** This config has been now tested with macOS 12 Monterey 12.1 (21C52). Please take a look at the Monterey section for more info.
+**UPDATE 2:** You can get touchpad gestures working just fine by adding the VoodooRMI kext (https://github.com/VoodooSMBus/VoodooRMI).
 
 # Changes compared to the original config:
 - Updated OpenCore to 0.7.7, latest version at the time of writing (11/01/2022)<br />
