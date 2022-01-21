@@ -4,7 +4,7 @@ OpenCore configuration based on the configuration you can find at: https://githu
 Obviously a big THANK YOU to the original author with of this config, without it i wouldn't be able to run macOS on this laptop.<br />
 
 **I would NOT recommend you using a prebuilt configuration for your computer IF you do not have any hackintosh knowledge, that would make maintaining your config harder in case something breaks with future macOS versions, so learn how it all works first (at least the basics)!<br />
-This config is mostly for personal use. While you can use this (serial isn't present), expect lazy workarounds and not always up to date kexts or OpenCore itself. If you read the first warning and still decided to continue, it means you should be experienced enough to mantain this config yourself overtime, i will only really update it when i need to for my personal needs.<br />**
+This config is mostly for personal use. While you can use this (serial isn't present), expect lazy workarounds and not always up to date kexts or OpenCore itself. If you read the first warning and still decided to continue, it means you should be experienced enough to mantain this config yourself overtime.<br />**
 
 NVRAM reset seems to be fine on this particular model of laptop, however your mileage may vary depending on firmware version (my current firmware version is 8VCN26WW, NVRAM reset worked with no issues or weird bricks). If you have a different firmware version and you don't want to reset NVRAM through OpenCore, update the firmware to clear it. If you don't want to see the Clear NVRAM option in the picker (perhaps out of fear of pressing it accidentally for safety reasons), disable AllowNvramReset in config.plist.<br />
 
